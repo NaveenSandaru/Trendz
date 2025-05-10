@@ -1,0 +1,43 @@
+/* aboutUsPage.css */
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: var(--text-color);               /* use theme variable */
+    background-color: var(--bg-color);     /* use theme variable */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .about-container h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: var(--text-color);              /* ensure it respects the theme */
+  }
+  
+  .about-container p {
+    margin-bottom: 1.2rem;
+    text-align: justify;
+    color: var(--text-color);              /* again, keep it dynamic */
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .about-container {
+      padding: 1rem;
+    }
+  
+    .about-container h1 {
+      font-size: 1.8rem;
+    }
+  
+    .about-container p {
+      font-size: 1rem;
+    }
+  }
+  
